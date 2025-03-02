@@ -1,0 +1,47 @@
+.payh2{
+    text-align: center;
+    margin-top: 14px;
+}
+.payh3{
+    width: 20%;
+}
+.pay p{
+    color: #777;
+    
+}
+.pay a{
+    color: blue;
+}
+.box{
+    display: flex;
+    flex-direction: column; 
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 4px;  
+}
+
+
+
+.row1,.row2,.row3{
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #80808098;
+}
+.grow{
+    flex-grow: 1;
+}
+.grow strong{
+    display: block;
+    margin: 10px 0px;
+}
+
+@media (max-width:767px) {
+    .row2{
+        flex-direction: column;
+    }
+}

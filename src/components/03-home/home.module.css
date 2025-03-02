@@ -1,0 +1,28 @@
+
+.cont{
+    padding: 0px 20px;
+}
+.Productpage{
+
+    position: absolute;
+    top:350px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width:767px) {
+    .img{
+        display: none;
+    }
+    .Productpage{
+        position: relative;
+       top: 20px;
+    }
+}

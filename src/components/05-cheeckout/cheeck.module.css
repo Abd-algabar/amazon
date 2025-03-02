@@ -1,0 +1,72 @@
+.Cheeck {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.left {
+  flex-grow: 1;
+}
+.left > h3 {
+  font-weight: 400;
+}
+.left > h2 {
+  margin: 10px 0px;
+}
+.imgpro {
+  width: 200px;
+}
+.rihgt {
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 4px;
+  width: 20%;
+  max-height: fit-content;
+}
+.rihgt p {
+  color: #777;
+  margin-bottom: 20px;
+}
+.rihgt p span {
+  font-weight: bold;
+}
+
+.ProductCheeck {
+  padding: 20px;
+  background: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.ProductCheeck .info {
+  padding: 20px;
+}
+.ProductCheeck .info .title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.ProductCheeck .info > span {
+  font-weight: bold;
+}
+.groub {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 767px) {
+  .Cheeck {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .imgpro {
+    width: 100px;
+  }
+  .ProductCheeck .info .title {
+    font-size: 12px;
+  }
+  .rihgt {
+    padding: 20px;
+
+    width: 90%;
+  }
+}
